@@ -7,12 +7,12 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="warning" variant="dark">
-      <Container>
+      <>
       
         <Navbar.Brand as={Link} to={"/"}>
           <img src='./logo-nav-2.png' 
            alt='logo'
-           height= '100px'
+           height= '90px'
            />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -41,7 +41,7 @@ function Header() {
             <Nav.Link eventKey={2} as={Link} to={"/contactanos"}>Contáctanos</Nav.Link>
           </Nav>
         </Navbar.Collapse>
-      </Container>
+      </>
     </Navbar>
   );
 }

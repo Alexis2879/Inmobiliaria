@@ -15,7 +15,7 @@ const Footer = () => {
                     <div className='col uno'>
                         <img src='./logo-footer-2.png'
                             alt='logo'
-                            height='100px'
+                            height='90px'
                         />
                         <p className='footer-text'>Somos una empresa inmobiliaria en Perú. Estamos integrados por un equipo de expertos profesionales,
                             con amplia experiencia en gestión inmobiliaria, unidos para brindar servicios con altos Estándares de
