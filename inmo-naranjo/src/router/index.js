@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import App from "../router";
+import App from "../App";
 import Noticias from "../pages/Noticias";
 import Propiedades from "../pages/Propiedades";
 import Inicio from "../pages/Inicio";
@@ -9,7 +9,8 @@ import BuscarPropiedades from "../pages/BuscarPropiedades";
 import Ofreceuninmueble from "../pages/Ofreceuninmueble";
 import Contactanos from "../pages/Contactanos";
 
-const Router = () => {    
+const Router = () => {
+    return (     
   
       <BrowserRouter>
           <Routes>
@@ -25,7 +26,7 @@ const Router = () => {
               </Route>
           </Routes>
       </BrowserRouter>
-
+)
 };
 
 export default Router;
